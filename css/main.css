@@ -12,7 +12,7 @@ h1 {
 }
 
 .name-email {
-  padding-right: .5rem;
+  padding: .5rem;
 }
 
 .btn-hover {
@@ -22,7 +22,7 @@ h1 {
 @media only screen and (min-width: 60em) {
 
   .name-email {
-    padding-right: 1rem;
+    padding: 1rem;
   }
 
 }
