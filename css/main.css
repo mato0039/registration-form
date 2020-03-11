@@ -12,9 +12,17 @@ h1 {
 }
 
 .name-email {
-  padding-right: 1rem;
+  padding-right: .5rem;
 }
 
 .btn-hover {
   background-color: #000;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .name-email {
+    padding: 1rem;
+  }
+
 }
