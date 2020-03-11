@@ -14,3 +14,7 @@ h1 {
 .name-email {
   padding-right: 1rem;
 }
+
+.btn-hover {
+  background-color: #000;
+}
