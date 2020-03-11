@@ -11,10 +11,6 @@ h1 {
   border-bottom: 1px solid;
 }
 
-.name-email {
-  padding: .5rem;
-}
-
 .btn-hover {
   background-color: #000;
 }
@@ -22,7 +18,9 @@ h1 {
 @media only screen and (min-width: 60em) {
 
   .name-email {
-    padding: 1rem;
+    display: inline-block;
   }
+
+
 
 }
