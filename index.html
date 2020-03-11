@@ -11,13 +11,13 @@
 </head>
 <body>
 
-  <section class="pad-t">
+  <section>
     <div class="section max-length gutter pad-t-2 pad-b-2">
       <h1 class="push-1-2 not-bold exa">Want to go to Mars?</h1>
       <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-      <form class="grid" action="index.html" method="post">
+      <form class="grid" method="post" action="https://formspree.io/mato0039@algonquinlive.com">
         <fieldset class="unit s-1 m-1 l-1 push-1-2"><legend class="giga not-bold italic">Personal details</legend></fieldset>
-        <div class="unit s-1 m-1 l-1-2 push name-email">
+        <div class="unit xs-1 m-1 l-1-2 push name-email">
           <label class="milli" for="name">Name</label>
           <input id="name" name="name" required>
         </div>
@@ -30,8 +30,8 @@
           <input type="email" id="email" name="email" required>
         </div>
         <div class="unit s-1 m-1 l-1-2 push">
-          <label class="milli" for="physical fitness">Physical fitness</label>
-          <select id="physical fitness" name="physical fitness">
+          <label class="milli" for="physicalfitness">Physical fitness</label>
+          <select id="physicalfitness" name="physicalfitness">
             <option>Super-human</option>
             <option>Fit as a fiddle</option>
             <option>Not terribly strong</option>
@@ -48,7 +48,8 @@
           <textarea id="mars" name="mars"></textarea>
         </div>
         <div class="unit s-1 m-1 l-1 push text-center">
-          <button class="btn btn-large">Register for the trip!</button>
+          <button class="btn btn-large" type="submit">Register for the trip!</button>
+          <input type="hidden" name="_subject" value="Request to join the mission">
         </div>
 
       </form>
